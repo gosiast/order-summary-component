@@ -1,9 +1,10 @@
-h1 {
-	color: blue;
+.card-title {
+	color: rgb(1, 10, 2);
 }
 
 p {
 	font-size: 16px;
+	font-weight: lighter;
 }
 .order--wrapper {
 	display: flex;
