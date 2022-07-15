@@ -1,10 +1,14 @@
+body {
+	background-color: hsl(225, 100%, 94%);
+	font-family: "Red Hat Display", sans-serif;
+}
 .card-title {
 	color: rgb(1, 10, 2);
 }
 
 p {
 	font-size: 16px;
-	font-weight: lighter;
+	font-weight: 500;
 }
 .order--wrapper {
 	display: flex;
