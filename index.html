@@ -1,65 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- CSS only -->
+  </head>
+  <title>Order Summary Component</title>
+  <body>
+    <main>
+      <div class="order--wrapper">
+        <div class="card">
+          <img
+            src="/src/images/illustration-hero.svg"
+            class="card-img-top"
+            alt="a person with headphones listening to music"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              <strong> Order Summary </strong>
+            </h5>
+            <p class="card-text">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+            <div class="subscription--wrapper d-flex justify-content-between">
+              <div class="row">
+                <div class="col-4">
+                  <img src="/src/images/icon-music.svg" alt="" />
+                </div>
+                <div class="col-4">
+                  <p>Annual Plan</p>
+                  <p>$59.99/year</p>
+                </div>
+                <div class="col-4">
+                  <a href="#" class="btn-btn-link">Change</a>
+                </div>
+              </div>
+            </div>
 
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-			crossorigin="anonymous"
-		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="styles.css" />
-		<!-- CSS only -->
-	</head>
-	<title>Order Summary Component</title>
-	<body>
-		<div class="order--wrapper">
-			<div class="card">
-				<img
-					src="/src/images/illustration-hero.svg"
-					class="card-img-top"
-					alt="a person with headphones listening to music"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">
-						<strong> Order Summary </strong>
-					</h5>
-					<p class="card-text">
-						You can now listen to millions of songs, audiobooks, and podcasts on
-						any device anywhere you like!
-					</p>
-					<div class="subscription--wrapper d-flex justify-content-between">
-						<div class="row">
-							<div class="col-4">
-								<img src="/src/images/icon-music.svg" alt="" />
-							</div>
-							<div class="col-4">
-								<p>Annual Plan</p>
-								<p>$59.99/year</p>
-							</div>
-							<div class="col-4">
-								<a href="#" class="btn-btn-link">Change</a>
-							</div>
-						</div>
-					</div>
-
-					<a href="#" class="btn btn-primary">Proceed to payment</a>
-					<a href="#" class="btn btn-link text-decoration-none text-muted"
-						>Cancel the order</a
-					>
-				</div>
-			</div>
-		</div>
-	</body>
+            <a href="#" class="btn btn-primary">Proceed to payment</a>
+            <a href="#" class="btn btn-link text-decoration-none text-muted"
+              >Cancel the order</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io/profile/gosiast" target="_blank"
+          >Frontend Mentor</a
+        >
+        Coded by
+        <a href="https://github.com/gosiast" target="_blank"
+          >Małgorzata Stano</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
