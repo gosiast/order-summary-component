@@ -8,9 +8,11 @@ body {
 }
 .card-title {
   color: rgb(1, 10, 2);
+  margin: 10px 0;
+  font-size: 25px;
 }
 
-.card-text, .subscription-plan-price {
+.card-text, .subscription-plan-price, .cancel-button {
   color:hsl(224, 23%, 55%);
 }
 
@@ -35,12 +37,19 @@ p {
 }
 .payment-button {
   background-color: hsl(245, 75%, 52%);
-  padding: 10px 50px;
-  margin-top: 10px 0 10px 0;
+  padding: 10px 100px;
+  margin-top: 15px 0 12px 0;
   border-radius: 15px;
+  font-size: 14px;
 }
 .payment-button:hover {
   background-color: yellow;
+}
+
+.cancel-button {
+  text-decoration:none;
+  padding: 12px 0;
+  margin: 10px 0;
 }
 footer {
   background-color: #333;
