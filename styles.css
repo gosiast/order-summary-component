@@ -28,7 +28,15 @@ p {
   margin: 10px;
   padding: 10px;
 }
-
+.payment-button {
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px 50px;
+  margin-top: 10px 0 10px 0;
+  border-radius: 15px;
+}
+.payment-button:hover {
+  background-color: yellow;
+}
 footer {
   background-color: #333;
   color: white;
