@@ -12,8 +12,10 @@ body {
   font-size: 25px;
 }
 
-.card-text, .subscription-plan-price, .cancel-button {
-  color:hsl(224, 23%, 55%);
+.card-text,
+.subscription-plan-price,
+.cancel-button {
+  color: hsl(224, 23%, 55%);
 }
 
 p {
@@ -47,7 +49,7 @@ p {
 }
 
 .cancel-button {
-  text-decoration:none;
+  text-decoration: none;
   padding: 12px 0;
   margin: 10px 0;
 }
