@@ -28,7 +28,7 @@ Users should be able to:
 
 ![Desktop Active Solution](./src/images/solutions/desktop-solution.png)
 ![Desktop Active Button Solution](./src/images/solutions/desktop-active-button-solution.png)
-![Desktop Cancel Button Solution](./src/images/solutions/desktop-cancel-button-solution.png)
+![Desktop Cancel Button Solution](./src/images/solutions/desktop-cancel-button.png)
 ![Desktop Active Change Link](./src/images/solutions/desktop-active-change-link.png)
 ![Mobile Solution](./src/images/solutions/mobile-solution.png)
 
