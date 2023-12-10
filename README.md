@@ -26,7 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Solutions](./src/images/solutions/)
+![Desktop Active Solution](./src/images/solutions/desktop-solution.png)
+![Desktop Active Button Solution](./src/images/solutions/desktop-active-button-solution.png)
+![Desktop Cancel Button Solution](./src/images/solutions/desktop-cancel-button-solution.png)
+![Mobile Solution](./src/images/solutions/mobile-solution.png)
 
 ### Links
 
