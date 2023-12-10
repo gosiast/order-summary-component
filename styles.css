@@ -45,7 +45,7 @@ p {
   font-size: 14px;
 }
 .payment-button:hover {
-  background-color: yellow;
+  background-color: rgb(154, 75, 224);
 }
 
 .cancel-button {
