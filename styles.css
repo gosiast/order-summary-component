@@ -92,3 +92,13 @@ footer a {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 360px) {
+  .change-plan {
+    font-size: 13px;
+  }
+   .payment-button {
+    font-size: 13px;
+    padding: 0;
+
+  }
+}
