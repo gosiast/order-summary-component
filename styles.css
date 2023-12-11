@@ -86,3 +86,9 @@ footer {
 footer a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 440px) {
+  .change-plan {
+    font-size: 14px;
+  }
+}
